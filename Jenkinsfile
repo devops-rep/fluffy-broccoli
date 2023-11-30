@@ -8,7 +8,7 @@ pipeline
         {
             steps 
             {
-                echo 'Build App'
+                echo 'Building this from Feature-Branch - App'
             }
         }
 
@@ -16,7 +16,7 @@ pipeline
         {
             steps 
             {
-                echo 'Test App'
+                echo 'Building this from Feature-Branch - Test App'
             }
         }
 
@@ -24,7 +24,7 @@ pipeline
         {
             steps 
             {
-                echo 'Deploy App'
+                echo 'Building this from Feature-Branch Deploy App'
             }
         }
     }
